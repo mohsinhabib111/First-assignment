@@ -1,0 +1,81 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+p{
+    line-height: 30px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin: 0 40px;
+}
+.half-width .img1{
+    width: 90%;
+}
+.half-width .img2{
+    width: 50%;
+}
+.diet-section{
+    margin: 60px 60px;
+}
+.about-section{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+.one-third-width{
+    width: 33%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.one-third-width img{
+    width: 90%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 12px 45px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 10px 10px 40px #f6c4d5;
+}
+.para{
+    margin-bottom: 80px;
+}
+.center-class{
+    text-align: center;
+}
+.shadaw-class{
+    box-shadow: 10px 10px 60px gray;
+    margin: 30px 60px 80px 60px;
+    border-radius: 20px;
+}
+.login-another{
+    background-color: rgb(177, 173, 169);
+    padding: 40px 0;
+}
+.input-fild{
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+}
